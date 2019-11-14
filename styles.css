@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color:black;
+    line-height:1.6;
+}
+
+#showcase {
+    background-color:darkorange;
+    background-image: url("IMG_2866-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+#showcase h1 {
+    font-size:50px; 
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size:20px; 
+}
+
+xmp{
+    font: italic 17px verdana, sans-serif;
+}
+
+#section-a{
+    padding:20px;
+    background: white;
+    color:black;
+    text-align: center;
+}
+
+
+#section-c{
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+    min-width:calc(33.3333332vw - 40px);
+}
+
+#section-c .box-1, #section-c .box-3{
+    background:darkorange;
+    color:black;
+    
+}
+
+#section-c .box-2 {
+    background: gray;
+    color:white;
+}

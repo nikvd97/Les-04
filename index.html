@@ -1,10 +1,116 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <title>Hello World</title>
+<link rel="stylesheet" href="styles.css">
+<title> Stappenplan </title>
 </head>
-<body>
 
+<body>
+<header id="showcase">
+     <h1>Stappenplan</h1>
+     <p>Stappenplan uitgewerkt in HTMl & CSS. Het plan met de code vind je hieronder.</p>
+</header>
+
+<section id="section-a">
+    <p>Opbouw HTML structuur van deze pagina</p>
+    <pre>
+        <xmp>
+            <html lang="nl">
+                <head>
+                    <title> Stappenplan </title>
+                </head>
+                <body>
+                    <header id="showcase">
+                    <h1>Stappenplan</h1>
+                    <p>Stappenplan uitgewerkt in HTMl & CSS. Het plan met de code vind je hieronder.</p>
+                    </header>
+                    <section id="section-a">
+                    <p>Opbouw HTML structuur van deze pagina</p>
+                    <section id="section-b">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ab.</p>
+                    </section>
+                    <section id="section-c">
+                    <div class="box-1">  Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                    <div class="box-2">  Lorem ipsum dolor sit amet consectetur adipisicing elit. . </div>
+                    <div class="box-3">  Lorem ipsum dolor sit amet consectetur adipisicing elit.  </div> </section>
+                </body>
+            </html>
+        </xmp>
+    </pre>
+</section>
+
+    <section id="section-c">
+    <div class="box-1">
+        <p> Opbouw CSS van deze pagina</p>
+            <pre><xmp> 
+body{
+    margin:0;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    color:black;
+    line-height:1.6;
+}
+
+#showcase {
+    background-color:darkorange;
+    background-image: url("paper.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+                </xmp></pre>
+    </div>
+    <div class="box-2">
+            <pre><xmp> 
+#showcase h1 {
+    font-size:50px; 
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size:20px; 
+}
+
+xmp{
+    font: italic 17px verdana, sans-serif;
+}
+
+#section-a{
+    padding:20px;
+    background: white;
+    color:black;
+    text-align: center;
+}
+                </xmp></pre>
+        </div>
+        <div class="box-3">
+                <pre><xmp> 
+#section-c{
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background:darkorange;
+    color:black;
+}
+
+#section-c .box-2 {
+    background: gray;
+    color:white;
+}
+                </xmp></pre>
+            </div>
+        </section>
 </body>
 </html>
